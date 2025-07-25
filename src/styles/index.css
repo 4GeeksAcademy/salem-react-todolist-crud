@@ -1,11 +1,37 @@
-/* 
+body {
+  background-color: #f7f7f7;
+  font-family: Arial;
+  color: #ccc7c7;
+  font-size: 1.2rem;
+}
+h1 {
+  color: #ccc7c7;
+  font-size: 5.5rem;
+  margin-bottom: 20px;
+  font-family: "Times New Roman";
+  text-align: center;
+}
+.textinput {
+  color: #ccc7c7;
+  padding-left: 40px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.delete-btn {
+  opacity: 0;
+  cursor: pointer;
+  color: #ccc7c7;
+}
 
-*/
+.todo-item:hover .delete-btn {
+  opacity: 1;
+}
+.counter {
+  font-size: 1rem;
+  color: #ccc7c7;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
+.textinput::placeholder {
+  color: #ccc7c7;
+}
