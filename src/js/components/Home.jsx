@@ -6,7 +6,7 @@ const Home = () => {
   const [todos, setTodos] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const [modalOpen, setModalOpen] = useState(false);
-  const [name, setName] = useState("alesanchezr");
+  const [name, setName] = useState("salem");
 
   // Load tasks when component mounts or name changes
   useEffect(() => {
